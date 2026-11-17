@@ -13,10 +13,10 @@ OUT = pathlib.Path(__file__).parent
 BIZ = {
     "name": "Nova Construction Solutions SA",
     "legal": "Nova Construction Solutions SA Pty Ltd",
-    "street": "61 Stony Brook Way",
-    "suburb": "Truganina",
-    "state": "VIC",
-    "postcode": "3029",
+    "street": "4 Blue Gum Avenue",
+    "suburb": "Woodville North",
+    "state": "SA",
+    "postcode": "5012",
     "acn": "669 389 744",
     "email_admin": "admin@novaconstructions.com.au",
     "service_area": "South Australia",
@@ -164,7 +164,7 @@ def footer():
 
     <div class="foot-base">
       <span>&copy; <span data-year>2026</span> {BIZ['legal']}. All rights reserved.</span>
-      <span>Registered office in Victoria &middot; Services across {BIZ['service_area']}</span>
+      <span>Registered office in South Australia &middot; Services across {BIZ['service_area']}</span>
     </div>
   </div>
 </footer>
@@ -270,7 +270,7 @@ def page_home():
     </div>
     <div class="wrap">
       <dl class="hero-facts">
-        <div><dt>Registered office</dt><dd>Truganina, VIC</dd></div>
+        <div><dt>Registered office</dt><dd>{BIZ['suburb']}, {BIZ['state']}</dd></div>
         <div><dt>Coverage</dt><dd>South Australia</dd></div>
         <div><dt>Engagement</dt><dd>Day, week or program</dd></div>
         <div><dt>Enquiries</dt><dd><a href="mailto:{BIZ['email_admin']}">{BIZ['email_admin']}</a></dd></div>

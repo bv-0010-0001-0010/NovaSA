@@ -62,9 +62,8 @@ Google Sheet and the `admin@novaconstructions.com.au` inbox before launch.
 - [ ] Have the privacy policy and terms reviewed for the actual business.
 - [ ] Submit the sitemap to Google Search Console after launch.
 
-The registered office address and service area currently shown were supplied
-for development. Legal and service claims should be checked by the client before
-publication.
+The registered office address and service area should be confirmed by the client.
+Legal and service claims should be checked before publication.
 
 The header and footer use the supplied transparent SVG logo, with the PNG as a
 fallback.

@@ -159,7 +159,7 @@ function confirmToSender(data) {
     '',
     '—',
     BUSINESS + ' Pty Ltd',
-    '61 Stony Brook Way, Truganina VIC 3029',
+    '4 Blue Gum Avenue, Woodville North SA 5012',
     'admin@novaconstructions.com.au',
     '',
     'This email is a confirmation of receipt only. It is not an offer, quote or',
